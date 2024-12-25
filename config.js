@@ -22,11 +22,11 @@ global.THUMB_IMAGE =
 module.exports = {
 	botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
 	ownername: process.env.OWNER_NAME || 'SamPandey001',
-	OWNER_NUMBER: process.env.OWNER_NUMBER || '',
-	sessionName: process.env.SESSION_ID || '',
+	OWNER_NUMBER: process.env.OWNER_NUMBER || '919628516236,2348060598064,34612538080,233268374753',
+	sessionName: process.env.SESSION_ID || 'Secktor;;;cDUxdnhmbnI=',
 	author: (process.env.PACK_INFO?.split(';') || [])[0] || 'SamPandey001',
 	auto_read_status: process.env.AUTO_READ_STATUS || false,
-	packname: (process.env.PACK_INFO?.split(';') || [])[1] || 'Secktor-Md',
+	packname: (process.env.PACK_INFO?.split(';') || [])[1] || 'SamPandey;Secktor',
 	autoreaction: process.env.AUTO_REACTION || false,
 	antibadword: process.env.ANTI_BAD_WORD || 'nobadwordsuntilyouputabadwordherelol',
 	alwaysonline: process.env.ALWAYS_ONLINE || false,
@@ -50,7 +50,7 @@ module.exports = {
 		APP_NAME: process.env.HEROKU_APP_NAME || '',
 	},
 	VERSION: process.env.VERSION || 'v.0.0.8',
-	LANG: process.env.THEME || 'SECKTOR',
+	LANG: process.env.THEME || 'ITACHI',
 	WORKTYPE: process.env.WORKTYPE || 'public',
 };
 
